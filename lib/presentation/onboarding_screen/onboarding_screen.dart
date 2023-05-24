@@ -93,10 +93,10 @@ class OnboardingScreen extends GetWidget<OnboardingController> {
                                         ]))),
                             CustomImageView(
                                 svgPath: ImageConstant.imgShare,
-                                height: getVerticalSize(52),
+                                height: getVerticalSize(100),
                                 width: getHorizontalSize(55),
                                 alignment: Alignment.topCenter,
-                                margin: getMargin(top: 121)),
+                                margin: getMargin(top: 12)),
                             CustomImageView(
                                 imagePath: ImageConstant.imgEllipse6,
                                 height: getSize(39),
